@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mie77</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tetris.css">
+</head>
+<body>
+    <!-- HEADER dengan Logo Gambar -->
+    <header>
+        <div class="container header-content">
+            <!-- AREA LOGO DENGAN GAMBAR -->
+            <div class="logo-area">
+                <!-- GANTI SRC LOGO DI BAWAH INI DENGAN URL GAMBAR ANDA -->
+                <img src="PEMADAM WIFI NEGSAGO.jpeg" alt="Logo Ramen Delight" class="logo-img">
+                <div class="logo-text">
+                    <h1>Mie77</h1>
+                    <p class="slogan">Pemadam Wifi Negsago</p>
+                </div>
+            </div>
+            
+            <nav>
+                <a href="#menu" class="filter-btn">Menu</a>
+                <a href="#contact" class="filter-btn">Kontak</a>
+                <span class="cart-icon" style="margin-left:20px;">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cartCount">0</span>
+                </span>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <h2>Dimana ada wifi<br>Disitu aku bertindak</h2>
+            <p>Aku akan memadamkan wifi Negsago agar murid-murid fokus belajar ketika kemusda</p>
+            
+            <!-- Animasi Ramen Berputar -->
+            <div class="ramen-animation-container">
+                <img src="PEMADAM WIFI NEGSAGO.jpeg" alt="Animasi Ramen">
+            </div>
+            
+            <a href="#menu" class="add-btn" style="width:auto; display:inline-block; padding:15px 30px; margin-top:20px;">Lihat Menu Lengkap</a>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Menu Spesial Ramen</h2>
+                <p>Pilih favoritmu dari berbagai varian ramen kami</p>
+            </div>
+            
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="original">Original</button>
+                <button class="filter-btn" data-filter="spicy">Pedas</button>
+                <button class="filter-btn" data-filter="veggie">Vegetarian</button>
+            </div>
+            
+            <div class="menu-grid" id="menuGrid">
+                <!-- Item menu akan dimuat oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <!-- Logo di footer (gunakan gambar yang sama atau berbeda) -->
+                    <img src="PEMADAM WIFI NEGSAGO.jpeg" alt="Logo Ramen Delight">
+                    <h3>Mie77</h3>
+                    <p class="slogan">Pemadam Wifi Negsago</p>
+                    <p>Sejak 2023, kami berkomitmen menghadirkan ramen terbaik dengan bahan-bahan pilihan.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4>Kontak Kami</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Ramen Delight No. 45, Jakarta</p>
+                    <p><i class="fas fa-phone"></i> +62 812 3456 7890</p>
+                    <p><i class="fas fa-envelope"></i> order@ramendelight.com</p>
+                    <p><i class="fas fa-clock"></i> Buka Setiap Hari: 10.00 - 22.00</p>
+                </div>
+                
+                <div>
+                    <h4>Layanan</h4>
+                    <p><a href="#menu" style="color:#bbb; text-decoration:none;">Pesan Online</a></p>
+                    <p><a href="#" style="color:#bbb; text-decoration:none;">Delivery Area</a></p>
+                    <p><a href="#" style="color:#bbb; text-decoration:none;">Catering</a></p>
+                    <p><a href="#" style="color:#bbb; text-decoration:none;">FAQ</a></p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Ramen Delight. Hak Cipta Dilindungi. | Website by Ramen Delight Team</p>
+            </div>
+        </div>
+    </footer>
+    <script src="tetris.js"></script>
+</body>
+</html>
